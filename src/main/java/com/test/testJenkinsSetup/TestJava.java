@@ -27,7 +27,6 @@ public class TestJava {
         char str1[] = ("geeksforgeeks").toCharArray();
         char str2[] = ("forgeeksgeeks").toCharArray();
 
-        // Function call
         if (anagram(str1, str2))
             System.out.println("The two strings are"
                     + "anagram of each other");
